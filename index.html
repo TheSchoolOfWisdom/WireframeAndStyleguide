@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>WildSeries - Styleguide</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/uikit.min.css" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <script src="assets/js/uikit.min.js"></script>
+        <script src="assets/js/uikit-icons.min.js"></script>
+    </head>
+
+    <body>
+
+        <header uk-sticky>
+            <!-- Main Navbar -->
+            <nav class="uk-container uk-navbar">
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active">
+                            <a href="/">WildSeries/<strong>Styleguide</strong></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav uk-visible@s">
+                        <li><a class="uk-text-large" href="#wireframe">Wireframe</a></li>
+                        <li><a class="uk-text-large" href="#colors">Couleurs</a></li>
+                        <li><a class="uk-text-large" href="#typography">Typographie</a></li>
+                        <li><a class="uk-text-large" href="#buttons">Boutons</a></li>
+                    </ul>
+                    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+                </div>
+            </nav>
+        </header>
+
+        <div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas" uk-sticky>
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav">
+                    <li><a class="uk-text-large" href="#wireframe">Wireframe</a></li>
+                    <li><a class="uk-text-large" href="#colors">Couleurs</a></li>
+                    <li><a class="uk-text-large" href="#typography">Typographie</a></li>
+                    <li><a class="uk-text-large" href="#buttons">Boutons</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="uk-container uk-container-small">
+
+            <section class="wireframe">
+
+                <a class="anchor" id="wireframe"></a>
+                <h1 class="uk-article-title uk-text-center">Wireframe</h1>
+                <p class="uk-text-center">Pendant le kick-off du nouveau projet on a compris que le client souhaitais une application web similaire à Betaseries, donc on a réalisé le wireframe avec une structure similaire</p>
+                <img src="assets/images/wireframe.png">
+
+            </section>
+
+            <section class="colors">
+
+                <a class="anchor" id="colors"></a>
+                <h1 class="uk-article-title uk-text-center">Couleurs</h1>
+                <p class="uk-text-center">On as deux couleurs principales: bleu et magenta. Et les couleurs noir et gris pour les textes</p>
+
+                <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-body md-blue">
+                            <h3 class="uk-card-title">bleu</h3>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-body md-magenta">
+                            <h3 class="uk-card-title">magenta</h3>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-body md-black">
+                            <h3 class="uk-card-title">noir</h3>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-body md-gray">
+                            <h3 class="uk-card-title">gris</h3>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <br>
+
+            <section class="typography">
+
+                <a class="anchor" id="typography"></a>
+                <h1 class="uk-article-title uk-text-center">Typographie</h1>
+                <p class="uk-text-center">On as choisi trois polices, une pour les titres, une pour les sous-titres et une pour les textes</p>
+                <h1 style="font-family: Futura">Films</h1>
+                <p class="uk-article-meta">Futura - 42px</p>
+                <h2 style="font-family: 'Helvetica Neue'; font-weight: lighter;">Séries</h2>
+                <p class="uk-article-meta">Helvetica Neue lighter - 32px</p>
+                <h3 style="font-family: 'Roboto';font-style: italic;">Communauté</h3>
+                <p class="uk-article-meta">Roboto italic - 24px</p>
+
+            </section>
+
+            <br>
+
+            <section class="buttons">
+
+                <a class="anchor" id="buttons"></a>
+                <h1 class="uk-article-title uk-text-center">Boutons</h1>
+                <p class="uk-text-center" uk-margin>
+                    <button class="uk-button uk-button-primary">Primary</button>
+                    <button class="uk-button uk-button-danger">Danger</button>
+                    <button class="uk-button uk-button-secondary">Secondary</button>
+                    <button class="uk-button uk-button-default">Default</button>
+                </p>
+
+            </section>
+
+        </div>
+
+        <footer class="md-black">
+            <div class="md-footer">
+                <a href="/">WildSeries/<strong>Styleguide</strong></a>
+                <br><span>Made with love</span>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

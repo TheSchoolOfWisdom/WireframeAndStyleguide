@@ -1,0 +1,4 @@
+###> symfony/phpunit-bridge ###
+.idea
+.DS_Store
+###< symfony/phpunit-bridge ###

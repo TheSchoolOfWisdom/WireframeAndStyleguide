@@ -1,0 +1,47 @@
+.md-magenta {
+    background-color: #fd327c;
+}
+.md-magenta h3,.md-blue h3,.md-black h3,.md-gray h3 {
+    color: #fff;
+}
+.md-magenta,.md-blue,.md-black,.md-gray {
+    color: rgba(0,0,0,0.5);
+}
+.md-blue {
+    background-color: #2f9fdc;
+}
+.md-black {
+    background-color: #313131;
+}
+.md-gray {
+    background-color: #8c8c8c;
+}
+h1.uk-article-title {
+    font-family: Futura;
+}
+header {
+    background-color: #fff;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.03);
+}
+a.anchor {
+    top: -100px;
+    position: relative;
+    display: block;
+    visibility: hidden;
+}
+.md-footer {
+    text-align: center;
+    padding: 50px 0;
+}
+.md-footer a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: unset;
+}
+.md-footer span {
+    color: #777;
+}
+footer.md-black {
+    margin-top: 100px;
+    background-color: #1a1a1a;
+}
